@@ -11,6 +11,13 @@
 		C46C094A283D415400C9B72F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46C0949283D415400C9B72F /* ContentView.swift */; };
 		C46C094C283D415500C9B72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46C094B283D415500C9B72F /* Assets.xcassets */; };
 		C46C094F283D415500C9B72F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46C094E283D415500C9B72F /* Preview Assets.xcassets */; };
+		C46C0956283D449D00C9B72F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46C0955283D449D00C9B72F /* Extensions.swift */; };
+		C46C0958283D455A00C9B72F /* ClimateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46C0957283D455A00C9B72F /* ClimateCard.swift */; };
+		C46C095A283D492300C9B72F /* ThermometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46C0959283D492300C9B72F /* ThermometerView.swift */; };
+		C46C095C283D495D00C9B72F /* ThermometerPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46C095B283D495D00C9B72F /* ThermometerPlaceholderView.swift */; };
+		C46C095E283D4E6300C9B72F /* ThermometerDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46C095D283D4E6300C9B72F /* ThermometerDialView.swift */; };
+		C47A4059283E9741003533AC /* ThermometerSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A4058283E9741003533AC /* ThermometerSummaryView.swift */; };
+		C47A405B283E98FA003533AC /* ThermometerScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A405A283E98FA003533AC /* ThermometerScaleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		C46C0949283D415400C9B72F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C46C094B283D415500C9B72F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C46C094E283D415500C9B72F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C46C0955283D449D00C9B72F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C46C0957283D455A00C9B72F /* ClimateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCard.swift; sourceTree = "<group>"; };
+		C46C0959283D492300C9B72F /* ThermometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerView.swift; sourceTree = "<group>"; };
+		C46C095B283D495D00C9B72F /* ThermometerPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerPlaceholderView.swift; sourceTree = "<group>"; };
+		C46C095D283D4E6300C9B72F /* ThermometerDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerDialView.swift; sourceTree = "<group>"; };
+		C47A4058283E9741003533AC /* ThermometerSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerSummaryView.swift; sourceTree = "<group>"; };
+		C47A405A283E98FA003533AC /* ThermometerScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerScaleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				C46C0947283D415400C9B72F /* SmartHomeThermostatApp.swift */,
 				C46C0949283D415400C9B72F /* ContentView.swift */,
+				C46C0959283D492300C9B72F /* ThermometerView.swift */,
+				C47A405A283E98FA003533AC /* ThermometerScaleView.swift */,
+				C47A4058283E9741003533AC /* ThermometerSummaryView.swift */,
+				C46C095D283D4E6300C9B72F /* ThermometerDialView.swift */,
+				C46C095B283D495D00C9B72F /* ThermometerPlaceholderView.swift */,
+				C46C0957283D455A00C9B72F /* ClimateCard.swift */,
+				C46C0955283D449D00C9B72F /* Extensions.swift */,
 				C46C094B283D415500C9B72F /* Assets.xcassets */,
 				C46C094D283D415500C9B72F /* Preview Content */,
 			);
@@ -138,6 +159,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C46C094A283D415400C9B72F /* ContentView.swift in Sources */,
+				C46C095A283D492300C9B72F /* ThermometerView.swift in Sources */,
+				C46C095C283D495D00C9B72F /* ThermometerPlaceholderView.swift in Sources */,
+				C47A405B283E98FA003533AC /* ThermometerScaleView.swift in Sources */,
+				C46C0958283D455A00C9B72F /* ClimateCard.swift in Sources */,
+				C47A4059283E9741003533AC /* ThermometerSummaryView.swift in Sources */,
+				C46C0956283D449D00C9B72F /* Extensions.swift in Sources */,
+				C46C095E283D4E6300C9B72F /* ThermometerDialView.swift in Sources */,
 				C46C0948283D415400C9B72F /* SmartHomeThermostatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
